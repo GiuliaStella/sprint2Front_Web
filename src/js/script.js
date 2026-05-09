@@ -1,10 +1,10 @@
-// 1. Primeiro declaramos o botão que está no HTML
+//Declaração do formulário de cadastro
 const botao = document.getElementById('cadastroForm');
 
-// 2. Adicionamos um único evento de clique
+
 botao.addEventListener('submit', function (event) {
     event.preventDefault();
-    // ETAPA 1: Pegar os dados do formulário HTML
+    //Pegar os dados do formulário HTML
     const nome = document.getElementById("nome").value.trim();
     const sobrenome = document.getElementById("sobrenome").value.trim();
     const email = document.getElementById("email").value.trim();
@@ -17,8 +17,14 @@ botao.addEventListener('submit', function (event) {
 
     if (!email.includes("@")) {
         alert("E-mail inválido!");
-        return; // Para o código aqui se o e-mail estiver errado
+        return; // Parar o código aqui se o e-mail estiver errado
     }
 
-    // Alerta de boas-vindas
     alert("Cadastro realizado com sucesso! Bem-vindo, " + nome + "!"); });
+
+     //Exibindo tudo no console de forma organizada
+    console.log("==============================");
+    console.log("      DADOS DO USUÁRIO        ");
+    console.log("==============================");
+    console.log(`👤 Nome Completo: ${nome} ${sobrenome}`);
+    console.log(`📧 E-mail:        ${email}`);

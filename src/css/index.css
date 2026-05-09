@@ -1,6 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 /* deixa as cores e font salvadas para facilitar na hora de pegar e nn precisar ficar copiando e colando*/
 :root {
     --black: #000000;
+    --gray2: #1c1c1c;
     --dark: #131313;
     --blue-deep: #1a1a6e;
     --blue-grad-start: #1e1e8f;
@@ -59,7 +67,7 @@ header {
 }
 
 .logo span {
-    
+
     background: var(--grad-text);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -93,23 +101,91 @@ header {
     font-weight: 500;
 }
 
-.hero{
+.hero {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 60px;
-    max-width: 1200px;  /*largura maxima*/
-    margin: 0 auto; /*centraliza horizontalmente*/
+    max-width: 1200px;
+    /*largura maxima*/
+    margin: 0 auto;
+    /*centraliza horizontalmente*/
     padding: 10px 40px 80px;
-    min-height: 100vh; /*altura minima 100% da tela*/
+    min-height: 100vh;
+    /*altura minima 100% da tela*/
 }
-.hero-conteudo{
+
+.hero-conteudo {
     display: flex;
     flex-direction: column;
     gap: 20px;
     flex: 1;
     max-width: 560px;
+    font-size: 17px;
 }
-.hero-foto{
-    
+
+.hero-foto {}
+
+.funcionalidades {
+    background: var(--gray2);
+    max-width: 100%;
+    padding: 80px 40px;
+}
+
+.funcionalidades>* {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.texto-funcionalidades {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+
+
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    flex: 1;
+    min-width: 200px;
+    background: var(--gray);
+    border: 3px solid var(--pink);
+    border-radius: 10%;
+    padding: 28px 24px;
+    transition: border-color 0.2s, transform 0.2s;
+}
+
+.card:hover {
+    border-color: rgba(98, 150, 241, 0.3);
+    transform: translateY(-3px);
+}
+
+.card-icone {
+    font-size: 28px;
+    display: block;
+    margin-bottom: 14px;
+}
+
+.card h3 {
+    color: var(--black);
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 13px;
+    color: var(--black);
+    line-height: 1.6;
 }

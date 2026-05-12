@@ -26,6 +26,13 @@
 
     --font: sans-serif;
 }
+/* Reset básico para todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 /* Configuração do topo do site */
 header {
@@ -50,7 +57,7 @@ header {
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    height: 100px;
+    height: 70px;
 }
 
 /* Estilo do texto da logo */
@@ -147,14 +154,6 @@ body {
     background-color: var(--body);
     color: var(--gray);
     line-height: 1.6;
-}
-
-/* Reset básico para todos os elementos */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* --- SEÇÃO HERO (O INÍCIO DO CONTEÚDO) --- */

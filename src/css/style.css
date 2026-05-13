@@ -2,19 +2,16 @@
 :root {
     --black: #000000;
     --dark: #0d0d0d;
-    --blue-deep: #1a1a6e;
-    --blue-grad-start: #1e1e8f;
-    --blue-grad-end: #6b47dc;
     --retangulo-blue: #1d1dce;
     --white: #ffffff;
     --gray: #aaaaaa;
 
-    --orange: #ff7a1a;
-    --green: #00e676;
-    --purple: #9b51e0;
-    --pink: #e040fb;
-    --teal: #00bcd4;
-    --yellow: #ffd600;
+    --laranja: #ff7a1a;
+    --verde: #00e676;
+    --roxo: #9b51e0;
+    --rosa: #e040fb;
+    --azul: #00bcd4;
+    --amarelo: #ffd600;
 
     --font: sans-serif;
 }

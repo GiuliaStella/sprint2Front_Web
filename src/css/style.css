@@ -452,6 +452,7 @@ body {
     font-size: 10px;
 }
 
+/* botao das funcoes que muda de cor para cada funcao */
 .funcao-modos {
     display: flex;
     top: 120px;
@@ -479,4 +480,96 @@ body {
     border: 1.5px solid transparent;
     text-decoration: none;
     flex-shrink: 0;
+}
+
+/* pagina digitalizar-texto */
+.funcao-digitalizar {
+    display: flex;
+    top: 120px;
+    align-items: center;
+    gap: 5px;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    white-space: nowrap;
+    color: var(--white);
+    background: rgba(255, 255, 255, .1);
+    border: 1.5px solid transparent;
+    text-decoration: none;
+    flex-shrink: 0;
+    background-color: var(--laranja);
+}
+.funcao-traduzir {
+    display: flex;
+    top: 120px;
+    align-items: center;
+    gap: 5px;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    white-space: nowrap;
+    color: var(--white);
+    background: rgba(255, 255, 255, .1);
+    border: 1.5px solid transparent;
+    text-decoration: none;
+    flex-shrink: 0;
+    background-color: var(--verde);
+}
+.funcao-math {
+    display: flex;
+    top: 120px;
+    align-items: center;
+    gap: 5px;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    white-space: nowrap;
+    color: var(--white);
+    background: rgba(255, 255, 255, .1);
+    border: 1.5px solid transparent;
+    text-decoration: none;
+    flex-shrink: 0;
+    background-color: var(--roxo);
+}
+.funcao-resumir {
+    display: flex;
+    top: 120px;
+    align-items: center;
+    gap: 5px;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    white-space: nowrap;
+    color: var(--white);
+    background: rgba(255, 255, 255, .1);
+    border: 1.5px solid transparent;
+    text-decoration: none;
+    flex-shrink: 0;
+    background-color: var(--azul);
+}
+.funcao-quiz {
+    display: flex;
+    top: 120px;
+    align-items: center;
+    gap: 5px;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    white-space: nowrap;
+    color: var(--white);
+    background: rgba(255, 255, 255, .1);
+    border: 1.5px solid transparent;
+    text-decoration: none;
+    flex-shrink: 0;
+    background-color: var(--amarelo);
 }

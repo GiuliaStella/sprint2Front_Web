@@ -286,7 +286,6 @@ h2 {
 /* Grid para os cards de funcionalidade */
 .cards {
     display: flex;
-    grid-template-columns: 1fr 1fr;
     gap: 20px;
 
 }
@@ -346,7 +345,7 @@ h2 {
 
 /* deixa tudo na frente da animacao azul */
 .como-funciona-texto,
-.slidehow-passos,
+.slideshow-passos,
 .prev-passo,
 .next-passo {
     position: relative;
@@ -687,4 +686,42 @@ footer {
 .btn-submit:hover {
     opacity: 0.9;
     transform: translateY(-1px);
+}
+/* responsividade */
+@media (max-width: 768px) {
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 140px 20px 60px;
+    }
+
+    .hero-conteudo {
+        align-items: center;
+    }
+
+    .hero h2 {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .linha-form {
+        flex-direction: column;
+    }
+
+    .footerconteudo {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .menu-index {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }

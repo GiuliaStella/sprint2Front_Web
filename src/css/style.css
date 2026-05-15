@@ -121,7 +121,7 @@ body {
 }
 
 .cam-icon.zeiss {
-    color: var(--yellow);
+    color: var(--amarelo);
     font-size: 13px;
     font-weight: 800;
     /*negrito*/
@@ -189,7 +189,7 @@ body {
 
 .zoom-btn.active {
     background: rgba(255, 255, 255, .25);
-    color: var(--yellow);
+    color: var(--amarelo);
 }
 
 /* deixa o que esta sendo utilizado amarelo*/
@@ -212,7 +212,7 @@ body {
 
 /* foto */
 .modo.active-mode {
-    color: var(--yellow);
+    color: var(--amarelo);
 }
 
 /* smart study */
@@ -569,4 +569,22 @@ body {
     text-decoration: none;
     flex-shrink: 0;
     background-color: var(--amarelo);
+}
+
+/* responsividade */
+@media (max-width: 480px) {
+
+    .phone,
+    .intro-phone {
+        width: 100%;
+        height: auto;
+    }
+
+    .modos {
+        flex-wrap: wrap;
+    }
+
+    .funcao-modos {
+        overflow-x: auto;
+    }
 }

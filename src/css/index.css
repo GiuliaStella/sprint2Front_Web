@@ -690,10 +690,32 @@ footer {
 /* responsividade */
 @media (max-width: 768px) {
 
+    header {
+        padding: 10px 20px;
+    }
+
+    .conjunto-header {
+        flex-direction: column;
+        height: auto;
+        gap: 15px;
+        padding: 10px 0;
+    }
+
+    .menu-index {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .menu-index a {
+        font-size: 16px;
+    }
+
     .hero {
         flex-direction: column;
         text-align: center;
-        padding: 140px 20px 60px;
+        padding: 140px 20px 80px;
+        gap: 40px;
     }
 
     .hero-conteudo {
@@ -701,27 +723,63 @@ footer {
     }
 
     .hero h2 {
-        text-align: center;
         font-size: 2rem;
+        text-align: center;
+    }
+
+    .hero-testo {
+        font-size: 1rem;
+    }
+
+    .brain-image {
+        max-width: 300px;
     }
 
     .cards {
         flex-direction: column;
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .slideshow-passos {
+        flex-direction: column;
+    }
+
+    .passos {
+        max-width: 100%;
+    }
+
+    .prev-passo,
+    .next-passo {
+        padding: 10px 14px;
+        font-size: 16px;
+    }
+
+    .footerconteudo {
+        flex-direction: column;
         align-items: center;
+        text-align: center;
     }
 
     .linha-form {
         flex-direction: column;
     }
 
-    .footerconteudo {
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
+    .box-cadastro {
+        margin-right: 0;
+        padding: 60px 20px;
     }
 
-    .menu-index {
-        flex-wrap: wrap;
-        justify-content: center;
+    .cadastro-conteudo h2 {
+        font-size: 2rem;
+    }
+
+    #contato p,
+    .texto-funcionalidades,
+    .como-funciona-texto {
+        font-size: 1rem;
     }
 }

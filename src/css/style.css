@@ -574,17 +574,88 @@ body {
 /* responsividade */
 @media (max-width: 480px) {
 
+    body {
+        padding: 10px;
+    }
+
     .phone,
     .intro-phone {
         width: 100%;
         height: auto;
+        min-height: 100vh;
+        border-radius: 20px;
+    }
+
+    .camera-icones-topo {
+        padding: 30px 18px 10px;
+    }
+
+    .cam-icon {
+        font-size: 16px;
+    }
+
+    .retangulo-azul {
+        font-size: 11px;
+        padding: 6px 14px;
     }
 
     .modos {
+        gap: 10px;
         flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .modo {
+        font-size: 12px;
+    }
+
+    .controle-captura {
+        padding: 10px 20px 16px;
     }
 
     .funcao-modos {
-        overflow-x: auto;
+        padding: 0 8px 10px;
+        gap: 4px;
+    }
+
+    .funcao,
+    .funcao-digitalizar,
+    .funcao-traduzir,
+    .funcao-math,
+    .funcao-resumir,
+    .funcao-quiz {
+        font-size: 10px;
+        padding: 5px 10px;
+    }
+
+    .intro-body {
+        padding: 70px 20px 20px;
+    }
+
+    .intro-titulo {
+        font-size: 22px;
+    }
+
+    .intro-subtitulo {
+        font-size: 12px;
+    }
+
+    .card-sobre {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .sobre-texto h4 {
+        margin-top: 0;
+    }
+
+    .sobre-texto p {
+        margin-top: 5px;
+    }
+
+    .btn-iniciar {
+        font-size: 15px;
+        padding: 14px;
     }
 }
